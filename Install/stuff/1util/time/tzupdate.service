@@ -1,0 +1,8 @@
+[Unit]
+Description=Run tzupdate
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/tzupdate
+User=root
+

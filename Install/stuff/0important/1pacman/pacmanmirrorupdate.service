@@ -1,0 +1,8 @@
+[Unit]
+Description=Run pacmanmirrorupdate
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/pacmanmirrorupdate
+User=root
+
